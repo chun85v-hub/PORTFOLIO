@@ -17,7 +17,7 @@
         .project-card { transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1); border: 1px solid rgba(0,0,0,0.05); }
         .project-card:hover { transform: translateY(-15px); box-shadow: 0 40px 80px -15px rgba(0,0,0,0.1); border-color: #4F46E5; }
         
-        /* 1. 메인 배경화면: 지정된 드라이브 이미지 (Thumbnail API 활용) */
+        /* 1. 메인 배경화면: 지정된 드라이브 이미지 */
         .hero-bg {
             position: relative;
             background-image: url('https://drive.google.com/thumbnail?id=1qFaXu87IOU-LuDoC-UP732_sqXXjYtU9&sz=w1920');
@@ -60,8 +60,8 @@
             width: 110%;
             height: 120%;
             border-radius: 50px;
-            background-image: radial-gradient(#D9FF00 2px, transparent 0);
-            background-size: 15px 15px;
+            background-image: radial-gradient(#D9FF00 2.5px, transparent 0);
+            background-size: 18px 18px;
             animation: dotSpread 1.5s infinite ease-out;
         }
         .dot-animation::after { animation-delay: 0.75s; }
@@ -76,6 +76,11 @@
 
         .footer-icon { transition: transform 0.4s ease; }
         .footer-group:hover .footer-icon { transform: translateY(-8px); }
+
+        /* Resume Section Styling from image_3ca571.png */
+        .resume-label { font-size: 10px; font-weight: 900; letter-spacing: 0.5em; text-transform: uppercase; color: #A8A29E; margin-bottom: 1.5rem; display: block; border-bottom: 1px solid #F5F5F4; padding-bottom: 0.5rem; }
+        .resume-content-text { font-size: 13px; line-height: 1.8; color: #44403C; }
+        .resume-year { font-weight: 700; color: #78716C; width: 70px; display: inline-block; font-size: 12px; }
     </style>
 </head>
 <body class="antialiased selection:bg-indigo-100">
@@ -116,103 +121,111 @@
         <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[350px] font-black text-white/5 z-0 select-none whitespace-nowrap mix-blend-overlay">2026</div>
     </header>
 
-    <!-- Section: Intro & Detailed Profile -->
+    <!-- Section: Intro & Detailed Profile (Corrected from image_3ca571.png) -->
     <section id="intro" class="py-32 bg-stone-100">
-        <div class="max-w-6xl mx-auto px-8 space-y-12">
+        <div class="max-w-7xl mx-auto px-8 space-y-16">
             <!-- Part 1: Greeting & Philosophy -->
             <div class="bg-white p-12 md:p-20 rounded-[40px] shadow-sm border border-stone-200 reveal">
-                <h3 class="text-stone-400 text-[10px] font-black tracking-[0.4em] uppercase mb-8 border-b border-stone-100 pb-4 inline-block">Introduction</h3>
                 <div class="text-stone-700 space-y-8 text-sm md:text-[15px] leading-relaxed font-normal text-justify md:text-left">
                     <p class="text-stone-900 font-bold text-lg md:text-xl">안녕하세요? 천영수입니다.</p>
                     <p class="text-indigo-600 font-bold text-base">전략을 시각화하는 전문가,</p>
                     <p>
                         브랜드는 단순한 시각 결과물로 완성되지 않습니다. 정확한 문제 정의와 구조화된 전략 위에서 설계될 때 비로소 지속 가능한 가치가 형성됩니다.
+                        20년간 인쇄·패키지 디자인, 캐릭터 개발, 영상 콘텐츠 기획·촬영·편집까지 브랜드가 작동하는 전 접점을 아우르며 총괄 역할을 수행해 왔습니다. 
                     </p>
                     <p>
-                        인쇄·패키지 디자인, 캐릭터 개발, 영상 콘텐츠 기획·촬영·편집까지 브랜드가 작동하는 전 접점을 아우르며 실무와 총괄 역할을 수행해 왔습니다. 
-                        시각미디어디자인 전공과 현장 중심의 리더 경험을 기반으로 브랜드 전략 수립, 아이덴티티 체계 구축, 디지털 콘텐츠 확장까지 전 과정을 직접 설계합니다.
+                        비즈니스 목표를 분석하고 이를 실행 가능한 구조로 전환하는 전략형 디자이너로서, 중소기업 브랜딩 구축부터 유튜브 채널 운영까지 통합 시스템을 설계해 왔습니다. 
+                        촬영·드론·애니메이션·편집까지 직접 수행 가능한 실행 역량을 통해 전략과 제작 사이의 간극을 최소화합니다.
                     </p>
-                    <p>
-                        비즈니스 목표를 분석하고 이를 실행 가능한 구조로 전환하는 데 집중합니다. 중소기업 브랜딩 구축, 제품 상세페이지 고도화, 영상 콘텐츠 기획 및 채널 운영까지 통합 설계해 왔습니다.
-                        복잡한 산업 정보와 기술 기반 콘텐츠를 명확한 메시지와 설득력 있는 시각 언어로 재구성하는 데 강점을 지니고 있습니다.
-                    </p>
-                    <p>
-                        Adobe 전 제품군 숙련도는 물론 촬영·드론·애니메이션·편집까지 직접 수행 가능한 실행 역량을 통해 전략과 제작 사이의 간극을 최소화합니다. 트렌드를 소비하기보다 구조를 설계하고, 시각을 넘어 브랜드의 본질적 가치를 완성합니다.
-                    </p>
-                    <p class="text-stone-900 font-bold border-l-4 border-indigo-600 pl-4">브랜드의 가치를 완성하는 디자이너입니다.</p>
+                    <p class="text-stone-900 font-bold border-l-4 border-indigo-600 pl-4">브랜드의 가치를 완성하는 전문가입니다.</p>
                 </div>
             </div>
 
-            <!-- Part 2: Resume Grid with Profile Photo -->
+            <!-- Part 2: Resume Grid (Exactly matched image_3ca571.png) -->
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 reveal">
-                <!-- Left: Profile Info -->
-                <div class="lg:col-span-4 space-y-8">
-                    <div class="bg-white p-10 rounded-[40px] border border-stone-200 shadow-sm flex flex-col items-center text-center">
-                        <div class="w-44 h-44 rounded-full overflow-hidden mb-6 border-4 border-stone-50 shadow-inner bg-stone-100 relative">
-                            <!-- 프로필 사진 반영: 1XtLfF9FHEUlBtu68uoYVJ_tzMInJt_Mm (Thumbnail API) -->
-                            <img src="https://drive.google.com/thumbnail?id=1XtLfF9FHEUlBtu68uoYVJ_tzMInJt_Mm&sz=w500" 
-                                 alt="Profile Photo" 
-                                 class="w-full h-full object-cover object-top"
-                                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                            <div class="hidden absolute inset-0 bg-indigo-50 items-center justify-center text-indigo-200">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
-                            </div>
-                        </div>
-                        <h4 class="text-xl font-bold text-stone-900 mb-2">천영수</h4>
-                        <div class="text-stone-400 text-xs font-bold space-y-1">
-                            <p>B. 1985 . 03 . 03 (40세)</p>
-                            <p>P. 010 . 8818 . 2892</p>
-                            <p>M. chun85ys@naver.com</p>
+                <!-- Profile Card -->
+                <div class="lg:col-span-4 bg-white p-10 rounded-[40px] border border-stone-200 shadow-sm flex flex-col items-center">
+                    <div class="w-48 h-48 rounded-full overflow-hidden mb-8 border-4 border-white shadow-lg bg-stone-100 relative">
+                        <!-- Profile Image Link Restored -->
+                        <img src="https://drive.google.com/thumbnail?id=1XtLfF9FHEUlBtu68uoYVJ_tzMInJt_Mm&sz=w500" 
+                             alt="Profile Photo" 
+                             class="w-full h-full object-cover object-top"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="hidden absolute inset-0 bg-indigo-50 items-center justify-center text-indigo-200">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-16 h-16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
                         </div>
                     </div>
-                    
-                    <div class="bg-stone-900 p-10 rounded-[40px] text-white">
-                        <h5 class="text-[10px] font-black tracking-[0.4em] uppercase mb-6 text-stone-500">Certification</h5>
-                        <ul class="text-xs space-y-3 font-medium text-stone-300">
-                            <li class="flex justify-between"><span>시각디자인산업기사</span><span class="text-stone-500">2009</span></li>
-                            <li class="flex justify-between"><span>컴퓨터그래픽스운용기능사</span><span class="text-stone-500">2009</span></li>
-                            <li class="flex justify-between"><span>교원자격증</span><span class="text-stone-500">2009</span></li>
-                            <li class="flex justify-between"><span>2종보통운전면허</span><span class="text-stone-500">2004</span></li>
-                        </ul>
+                    <div class="text-center">
+                        <p class="text-stone-400 text-sm mb-1">끊임없이 도달하는</p>
+                        <h4 class="text-2xl font-black text-indigo-600 mb-6">천영수 입니다.</h4>
+                        <div class="space-y-2 text-stone-500 font-medium text-xs text-left inline-block">
+                            <p><span class="w-8 inline-block font-bold">B</span> 1985 . 03 . 03 (40세)</p>
+                            <p><span class="w-8 inline-block font-bold">P</span> 010 . 8818 . 2892</p>
+                            <p><span class="w-8 inline-block font-bold">M</span> chun85ys@naver.com</p>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Right: Detailed History -->
-                <div class="lg:col-span-8 bg-white p-10 md:p-14 rounded-[40px] border border-stone-200 shadow-sm space-y-12">
-                    <div>
-                        <h5 class="text-[10px] font-black tracking-[0.4em] uppercase mb-6 text-stone-400">Education</h5>
-                        <div class="space-y-4 text-sm font-medium">
-                            <div class="flex flex-col md:flex-row md:items-center"><span class="text-indigo-600 font-bold md:w-24">2009 . 01</span><span>우송대학교 시각미디어디자인과 졸업</span></div>
-                            <div class="flex flex-col md:flex-row md:items-center"><span class="text-stone-400 md:w-24">2003 . 01</span><span>충북예술고등학교 미술과 졸업</span></div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <h5 class="text-[10px] font-black tracking-[0.4em] uppercase mb-6 text-stone-400">Selected Experience</h5>
-                        <div class="space-y-6">
-                            <div class="border-l-2 border-stone-100 pl-6 relative">
-                                <div class="absolute -left-[5px] top-0 w-2 h-2 bg-indigo-600 rounded-full"></div>
-                                <h6 class="text-sm font-bold text-stone-900 mb-1">CJ 4DPLEX 프리미엄 캐릭터 개발 / 포스코 인재창조원 캐릭터 총괄</h6>
-                                <p class="text-xs text-stone-500">브랜드 자산화를 위한 캐릭터 시스템 구축 및 UI 인터페이스 설계</p>
-                            </div>
-                            <div class="border-l-2 border-stone-100 pl-6 relative">
-                                <div class="absolute -left-[5px] top-0 w-2 h-2 bg-stone-300 rounded-full"></div>
-                                <h6 class="text-sm font-bold text-stone-900 mb-1">한중국제영화제 콘텐츠 개발 총괄</h6>
-                                <p class="text-xs text-stone-500">캐릭터 개발 및 온·오프라인 굿즈 시스템 기획·제작</p>
+                <!-- History Content -->
+                <div class="lg:col-span-8 bg-white p-10 md:p-14 rounded-[40px] border border-stone-200 shadow-sm grid md:grid-cols-2 gap-12">
+                    <!-- Right Column A -->
+                    <div class="space-y-12">
+                        <div>
+                            <span class="resume-label">Education</span>
+                            <div class="resume-content-text space-y-4">
+                                <div class="flex items-start"><span class="resume-year">2003.01</span><span>충북예술고등학교 미술과 졸업</span></div>
+                                <div class="flex items-start"><span class="resume-year">2009.01</span><span>우송대학교 시각미디어디자인과 졸업</span></div>
                             </div>
                         </div>
-                    </div>
-
-                    <div>
-                        <h5 class="text-[10px] font-black tracking-[0.4em] uppercase mb-6 text-stone-400">Technical Mastery</h5>
-                        <div class="grid md:grid-cols-2 gap-x-12 gap-y-6">
-                            <div class="space-y-2">
-                                <div class="flex justify-between text-[11px] font-bold uppercase"><span>Design Systems (Ps/Ai)</span><span>95%</span></div>
-                                <div class="h-1 bg-stone-100 rounded-full overflow-hidden"><div class="h-full bg-indigo-600 w-[95%]"></div></div>
+                        <div>
+                            <span class="resume-label">Experience</span>
+                            <div class="resume-content-text space-y-6">
+                                <div class="flex flex-col">
+                                    <span class="resume-year mb-1">2018.01</span>
+                                    <span class="font-bold text-stone-900">CJ 4DPLEX 프리미엄 캐릭터 개발 / 캐릭터 디자인</span>
+                                </div>
+                                <div class="flex flex-col text-xs text-stone-500">
+                                    <span class="resume-year mb-1">2018.01</span>
+                                    <span class="font-bold text-stone-900">한중국제영화제 캐릭터 디자인 개발</span>
+                                    <p>(캐릭터, 캐릭터 굿즈(인형, 키링, 엽서 등))</p>
+                                </div>
+                                <div class="flex flex-col">
+                                    <span class="resume-year mb-1">2019.01</span>
+                                    <span class="font-bold text-stone-900">포스코 인재창조원 캐릭터 및 디자인 / 사내 채팅 어플용</span>
+                                </div>
                             </div>
-                            <div class="space-y-2">
-                                <div class="flex justify-between text-[11px] font-bold uppercase"><span>Motion & Video (Ae/Pr)</span><span>85%</span></div>
-                                <div class="h-1 bg-stone-100 rounded-full overflow-hidden"><div class="h-full bg-stone-900 w-[85%]"></div></div>
+                        </div>
+                    </div>
+                    <!-- Right Column B -->
+                    <div class="space-y-12">
+                        <div>
+                            <span class="resume-label">Certification</span>
+                            <div class="resume-content-text space-y-4">
+                                <div class="flex items-start"><span class="resume-year">2009.01</span><span>시각디자인산업기사</span></div>
+                                <div class="flex items-start"><span class="resume-year">2009.01</span><span>컴퓨터그래픽스운용기능사</span></div>
+                                <div class="flex items-start"><span class="resume-year">2009.01</span><span>교원자격증</span></div>
+                                <div class="flex items-start"><span class="resume-year">2004.01</span><span>2종보통운전면허</span></div>
+                            </div>
+                        </div>
+                        <div>
+                            <span class="resume-label">Program Skill</span>
+                            <div class="space-y-4">
+                                <div class="space-y-1">
+                                    <div class="flex justify-between text-[10px] font-black uppercase"><span>Photoshop</span><span>90%</span></div>
+                                    <div class="h-1 bg-stone-100 rounded-full overflow-hidden"><div class="h-full bg-indigo-600 w-[90%]"></div></div>
+                                </div>
+                                <div class="space-y-1">
+                                    <div class="flex justify-between text-[10px] font-black uppercase"><span>Illustration</span><span>90%</span></div>
+                                    <div class="h-1 bg-stone-100 rounded-full overflow-hidden"><div class="h-full bg-indigo-600 w-[90%]"></div></div>
+                                </div>
+                                <div class="space-y-1">
+                                    <div class="flex justify-between text-[10px] font-black uppercase text-stone-400"><span>After Effect</span><span>50%</span></div>
+                                    <div class="h-1 bg-stone-100 rounded-full overflow-hidden"><div class="h-full bg-stone-300 w-[50%]"></div></div>
+                                </div>
+                                <div class="space-y-1">
+                                    <div class="flex justify-between text-[10px] font-black uppercase text-stone-400"><span>Indesign</span><span>50%</span></div>
+                                    <div class="h-1 bg-stone-100 rounded-full overflow-hidden"><div class="h-full bg-stone-300 w-[50%]"></div></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -221,7 +234,7 @@
         </div>
     </section>
 
-    <!-- Section: Media Archive (4-column Grid) -->
+    <!-- Section: Media Archive (4 Cards in a Row) -->
     <section id="media" class="py-48 bg-white border-b border-stone-100">
         <div class="max-w-7xl mx-auto px-8">
             <div class="mb-24 reveal">
@@ -234,7 +247,7 @@
             </div>
             
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 reveal">
-                <!-- Card 1 -->
+                <!-- Hyundai -->
                 <div class="group bg-stone-50 border border-stone-100 rounded-[24px] p-6 hover:border-indigo-600 hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
                     <div class="mb-6">
                         <div class="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center text-white mb-5 group-hover:scale-110 transition-transform shadow-md">
@@ -247,7 +260,7 @@
                         <span>채널 바로가기</span><span>→</span>
                     </a>
                 </div>
-                <!-- Card 2 -->
+                <!-- Jeil -->
                 <div class="group bg-stone-50 border border-stone-100 rounded-[24px] p-6 hover:border-indigo-600 hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
                     <div class="mb-6">
                         <div class="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center text-white mb-5 group-hover:scale-110 transition-transform shadow-md">
@@ -260,7 +273,7 @@
                         <span>채널 바로가기</span><span>→</span>
                     </a>
                 </div>
-                <!-- Card 3 -->
+                <!-- NMS -->
                 <div class="group bg-stone-50 border border-stone-100 rounded-[24px] p-6 hover:border-indigo-600 hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
                     <div class="mb-6">
                         <div class="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center text-white mb-5 group-hover:scale-110 transition-transform shadow-md">
@@ -273,7 +286,7 @@
                         <span>영상 보기</span><span>▶</span>
                     </a>
                 </div>
-                <!-- Card 4 -->
+                <!-- Cheongju -->
                 <div class="group bg-stone-50 border border-stone-100 rounded-[24px] p-6 hover:border-indigo-600 hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
                     <div class="mb-6">
                         <div class="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center text-white mb-5 group-hover:scale-110 transition-transform shadow-md">
@@ -290,7 +303,7 @@
         </div>
     </section>
 
-    <!-- Section: Works -->
+    <!-- Section: Works (Index 02) -->
     <section id="work" class="py-48 bg-stone-50">
         <div class="max-w-7xl mx-auto px-8">
             <div class="flex flex-col md:flex-row justify-between items-end mb-32 gap-16 reveal">
@@ -309,13 +322,13 @@
         </div>
     </section>
 
-    <!-- Section: Expertise -->
+    <!-- Section: Expertise (Index 03) -->
     <section id="dashboard" class="py-48 bg-white border-t border-stone-100">
         <div class="max-w-7xl mx-auto px-8">
             <div class="mb-32 reveal">
                 <span class="text-indigo-600 font-bold tracking-widest uppercase text-xs mb-4 block border-l-4 border-indigo-600 pl-4">03. Capability Insight</span>
                 <h2 class="text-5xl md:text-7xl font-black tracking-tight mb-8">전략과 감각의 조화</h2>
-                <p class="text-stone-500 text-xl max-w-3xl leading-relaxed">경험을 기반으로 한 전문 영역을 구조화하여 보여줍니다.</p>
+                <p class="text-stone-500 text-xl max-w-3xl leading-relaxed">전략 이해도, 실행 완성도, 현장 적용력의 균형을 통한 고도화된 솔루션을 제안합니다.</p>
             </div>
             <div class="grid lg:grid-cols-2 gap-24 items-center mb-32">
                 <div class="bg-stone-50 p-16 rounded-[60px] border border-stone-100 reveal">
